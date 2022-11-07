@@ -1,0 +1,23 @@
+.img__box {
+	position: relative;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.home_img {
+	padding-right: 16px;
+}
+
+.pool_img {
+	padding-bottom: 16px;
+}
+
+.img__title {
+   padding: 479px 184px 51px 184px;
+	position: absolute;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 60px;
+	color: #fff;
+}

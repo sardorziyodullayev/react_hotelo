@@ -1,0 +1,46 @@
+.header {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.header-list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list-item {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #222;
+}
+
+.list-item + .list-item {
+	margin-left: 40px;
+}
+
+.item-link {
+	text-decoration: none;
+}
+
+.header-left-search-content {
+	display: flex;
+	align-items: center;
+	margin-left: 60px;
+}
+
+.header-menu {
+	margin-right: 24px;
+	cursor: pointer;
+}
+.site-regestar {
+	padding: 10px 24px 12px 24px;
+	border: 1px solid #999999;
+	border-radius: 35px;
+	text-decoration: none;
+	color: #100f2e;
+}
