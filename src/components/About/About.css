@@ -1,0 +1,29 @@
+.about__box {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+
+.about__avatar {
+	padding: 58px 71px;
+	width: 640px;
+	text-align: center;
+	background: #f9d15c;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.avatar__name {
+   margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	color: #555;
+}
+
+.avatar__text {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 36px;
+	color: #222;
+}
